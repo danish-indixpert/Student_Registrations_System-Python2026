@@ -1,2 +1,2 @@
-STU001 | danish | 19 | danish@gmail.com | joura | india
-STU002 | shahid | 20 | shahid@gmail.com | dholpur | india
+STU001 | Danish | 19 | danish@gmail.com | Joura | India
+STU002 | Shahid | 19 | shahid@gmail.com | Dholpur | India

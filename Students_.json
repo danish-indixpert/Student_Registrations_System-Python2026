@@ -1,8 +1,18 @@
 [
-    "STU002",
-    "shahid",
-    "20",
-    "shahid@gmail.com",
-    "dholpur",
-    "india"
+    {
+        "uid": "STU001",
+        "name": "Javed",
+        "age": "19",
+        "email": "danish@gmail.com",
+        "address": "Joura",
+        "country": "India"
+    },
+    {
+        "uid": "STU002",
+        "name": "Shahid",
+        "age": "19",
+        "email": "shahid@gmail.com",
+        "address": "Dholpur",
+        "country": "India"
+    }
 ]
