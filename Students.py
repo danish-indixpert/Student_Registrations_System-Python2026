@@ -1,8 +1,7 @@
-
 import json
 import datetime
 data_one=[]
-# student=[]
+
 
 def register():
     print("==============================")
@@ -33,7 +32,7 @@ def register():
     while True:
         try:
             age=input("Enter Your Age: ")
-            if int(age.isdigit()):
+            if age.isdigit():
                 break
             else:
                 raise ValueError("Invalid Age")
@@ -55,7 +54,7 @@ def register():
     while True:
         try:
             address=input("Enter Your Address: ")
-            if address.strip():
+            if address.isalnum():
                 break
             else:
                 raise ValueError ("Invalid Addresss")
@@ -66,7 +65,7 @@ def register():
     while True:
         try:
             country=input("Enter Your Country: ")    
-            if country.isalnum():
+            if country.isalpha():
                 break
             else:
                 raise ValueError("Invalid country")
@@ -74,8 +73,6 @@ def register():
             print("Plsease Correct Your Country")
         with open("System.log",'a') as cou:
             cou.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Country\n")
-        # data=uid,name,age,email,address,country
-    # data_one.append(registeration)
     with open("students_output.txt",'a') as register:
             register.write(f"{uid} | {name} | {age} | {email} | {address} | {country}\n")
     
@@ -179,16 +176,19 @@ def delete():
     print("*           Delete           *")
     print("==============================")
     one_uid=input("Enter Your UID: ")
+    print("==============================")
+    print("*           Yes/No           *")
+    print("==============================")
     print("1. yes")
     print("2. no")
-    delete_choice=input("Enter Your Choice: ")
+    delete_choice=input("Enter Your Choice (yes/no): ")
     if delete_choice=="yes":
         for delete_data in data_one:
             if delete_data["uid"]==one_uid:
                 data_one.remove(delete_data)
                 with open("Students_.json","w") as one_file:
                     json.dump(data_one,one_file,indent=4)
-                with open("Syste.log",'a') as d:
+                with open("System.log",'a') as d:
                     d.write(f"[{str(datetime.datetime.now())}] [WARNNING] - Student Deleted {one_uid}")
                 print("Student Deleted Successful!")
         else:

@@ -1,3 +1,20 @@
-[2026-08-25 14:05:42.074163] [INFO] - Registration Successful STU001
-[2026-08-25 14:06:15.937071] [ERROR] - Invalid Your Age!!! STU002
-[2026-08-25 14:06:47.967450] [INFO] - Registration Successful STU002
+[2026-08-25 14:56:44.270494] [ERROR] - Invalid Your Country
+[2026-08-25 14:57:04.802714] [ERROR] - Invalid Your Age!!! STU001
+[2026-08-25 14:57:11.424745] [ERROR] - Invalid Your Email!!! STU001
+[2026-08-25 14:57:35.725292] [INFO] - Registration Successful STU001
+[2026-08-25 14:57:46.542563] [ERROR] - Invalid Your Name!!! STU002
+[2026-08-25 14:57:49.291985] [ERROR] - Invalid Your Name!!! STU002
+[2026-08-25 14:57:59.063645] [ERROR] - Invalid Your Age!!! STU002
+[2026-08-25 14:58:34.223034] [INFO] - Registration Successful STU002
+[2026-08-25 14:58:50.360819] [ERROR] - Invalid Your Name!!! STU003
+[2026-08-25 14:59:04.016032] [ERROR] - Invalid Your Age!!! STU003
+[2026-08-25 14:59:09.268442] [ERROR] - Invalid Your Email!!! STU003
+[2026-08-25 14:59:42.808283] [INFO] - Registration Successful STU003
+[2026-08-25 14:59:52.444714] [ERROR] - Invalid Your Name!!! STU004
+[2026-08-25 15:00:06.960543] [ERROR] - Invalid Your Age!!! STU004
+[2026-08-25 15:00:15.383254] [ERROR] - Invalid Your Email!!! STU004
+[2026-08-25 15:00:35.217462] [INFO] - Registration Successful STU004
+[2026-08-25 15:00:44.178417] [ERROR] - Invalid Your Name!!! STU005
+[2026-08-25 15:00:50.345081] [ERROR] - Invalid Your Age!!! STU005
+[2026-08-25 15:00:56.805482] [ERROR] - Invalid Your Email!!! STU005
+[2026-08-25 15:01:12.237966] [INFO] - Registration Successful STU005
