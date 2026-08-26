@@ -61,7 +61,7 @@ def register():
         except Exception as adrs:
             print("Please Alphabet Value Only!")
         with open("System.log",'a') as add:
-            add.write(f"[{str(datetime.datetime.now())}] [EROOR] - Invalid Your Address\n")
+            add.write(f"[{str(datetime.datetime.now())}] [EROOR] - Invalid Your Address!!! {uid}\n")
     while True:
         try:
             country=input("Enter Your Country: ")    
@@ -72,7 +72,7 @@ def register():
         except Exception as count:
             print("Plsease Correct Your Country")
         with open("System.log",'a') as cou:
-            cou.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Country\n")
+            cou.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Country!!! {uid}\n")
     with open("students_output.txt",'a') as register:
             register.write(f"{uid} | {name} | {age} | {email} | {address} | {country}\n")
     
@@ -109,10 +109,9 @@ def update():
                             new_name=input("Enter You New Name: ")
                             if new_name.isalpha():
                                 update_data["name"]=new_name
-                              
                                 with open("Students_.json","w") as one_name:
                                     json.dump(data_one,one_name,indent=4)
-                                print("Name Update")
+                                print("Your Name Is Update")
                                 break
                             else:
                                 print("Invalid name")
@@ -127,7 +126,7 @@ def update():
                                 update_data["age"]=new_age
                                 with open("Students_.json","w") as one_age:
                                     json.dump(data_one,one_age,indent=4)
-                                print("Age Update")
+                                print("Your Age Is Update")
                                 break
                             else:
                                 print("Invalid Age")
@@ -142,7 +141,7 @@ def update():
                                 update_data["address"]=new_address
                                 with open("Students_.json","w") as one_address:
                                     json.dump(data_one,one_address,indent=4)
-                                print("Address Update")
+                                print("Your Address Is Update")
                                 break
                             else:
                                 print("Invalid Address")
@@ -157,7 +156,7 @@ def update():
                                 update_data["address"]=new_country
                                 with open("Students_.json","w") as one_country:
                                     json.dump(data_one,one_country,indent=4)
-                                print("Country Update")
+                                print("Your Country Is Update")
                                 break
                             else:
                                 print("Invalid Country")
