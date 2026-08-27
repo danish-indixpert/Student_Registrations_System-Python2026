@@ -9,23 +9,23 @@ def register():
     print("==============================")
     while True:
         try:
-            uid=input("Enter Your ID: ")
-            if uid.isalnum():
+            uid=input("Enter Your UID: ")
+            if uid.isdigit() and len(uid)>=3:
                 break
             else:
                 raise ValueError("Invalid Id")
-        except Exception as ii:
+        except:
             print("Wrong Uid!")
         with open("System.log",'a') as uii:
             uii.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Uid!!!\n")
     while True:
         try:
             name=input("Enter Your Name: ")
-            if name.isalpha():
+            if name.strip() and len(name)>=3:
                 break
             else:
-                raise ValueError("Invalid Name")            
-        except Exception as n:
+                print("Invalid Name")            
+        except:
             print("Please Alphabet Value Only!")
         with open("System.log",'a') as nn:
             nn.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Name!!! {uid}\n")
@@ -35,8 +35,8 @@ def register():
             if age.isdigit():
                 break
             else:
-                raise ValueError("Invalid Age")
-        except Exception as a:
+                print("Invalid Age")
+        except:
             print("Please Integer (Digit) Value Only!")
         with open("System.log",'a') as aa:
             aa.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Age!!! {uid}\n")
@@ -46,30 +46,30 @@ def register():
             if "@" in email and ".com" in email:
                 break
             else:
-                raise ValueError("Invalid email")
-        except Exception as e:
+                print("Invalid email")
+        except:
             print("Please Correct Email ID!")
         with open("System.log",'a') as ee:
             ee.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Email!!! {uid}\n")
     while True:
         try:
             address=input("Enter Your Address: ")
-            if address.isalnum():
+            if address.strip() and len(address)>=3:
                 break
             else:
-                raise ValueError ("Invalid Addresss")
-        except Exception as adrs:
+                print("Invalid Addresss")
+        except:
             print("Please Alphabet Value Only!")
         with open("System.log",'a') as add:
             add.write(f"[{str(datetime.datetime.now())}] [EROOR] - Invalid Your Address!!! {uid}\n")
     while True:
         try:
             country=input("Enter Your Country: ")    
-            if country.isalpha():
+            if country.isalpha() and len(country)>=3:
                 break
             else:
-                raise ValueError("Invalid country")
-        except Exception as count:
+                print("Invalid country")
+        except:
             print("Plsease Correct Your Country")
         with open("System.log",'a') as cou:
             cou.write(f"[{str(datetime.datetime.now())}] [ERROR] - Invalid Your Country!!! {uid}\n")
@@ -117,7 +117,7 @@ def update():
                                 print("Invalid name")
                             with open("System.log",'a') as n_one:
                                 n_one.write(f"[{str(datetime.datetime.now())}] [INFO] - Student Name Updated {update_uid}")
-                        except Exception as one:
+                        except:
                             print("Invalid [Error]")
                     elif choice_update=="2":
                         try:
@@ -132,8 +132,8 @@ def update():
                                 print("Invalid Age")
                             with open("System.log",'a') as a_one:
                                 a_one.write(f"[{str(datetime.datetime.now())}] [INFO] - Student Age Updated {update_uid}")
-                        except Exception as two:
-                            print(f"Invalid [Error] {two}")
+                        except:
+                            print("Invalid [Error]")
                     elif choice_update=="3":
                         try:
                             new_address=input("Enter you new address: ")
@@ -147,7 +147,7 @@ def update():
                                 print("Invalid Address")
                             with open("System",'a') as add_one:
                                 add_one.write(f"[{str(datetime.datetime.now())}] [INFO] - Student Address Updated {update_uid}")
-                        except Exception as three:
+                        except:
                             print("Invalid [Error]")
                     elif choice_update=="4":
                         try:
@@ -162,7 +162,7 @@ def update():
                                 print("Invalid Country")
                             with open("System.log",'a') as c_one:
                                 c_one.write(f"[{str(datetime.datetime.now())}] [INFO] - Student Country Updated {update_uid}")
-                        except Exception as four:
+                        except:
                             print("invalid [Error]")
                     elif choice_update=="5":
                         menu()

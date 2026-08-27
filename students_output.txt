@@ -1,5 +1,1 @@
-STU001 | Danish | 19 | danish@gmail.com | Joura | India
-STU002 | Shahid | 19 | shahid@gmail.com | Joura | India
-STU003 | Alishan | 17 | alishan@gmail.com | Dholpur | India
-STU004 | Yogesh | 20 | yogesh@gmail.com | Gwalior | India
-STU005 | Aman | 21 | aman@gmail.com | Morena | India
+001 | Salib | 17 | salib@gmail.com | Joura | India
