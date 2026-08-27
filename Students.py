@@ -85,7 +85,7 @@ def register():
                 "country":country,
             }
             data_one.append(registeration)    
-            with open("Students_.json",'w') as student_registration:
+            with open("Students_.json",'a') as student_registration:
                 json.dump(data_one,student_registration,indent=4)
             with open("System.log",'a') as reg:
                 reg.write(f"[{str(datetime.datetime.now())}] [INFO] - Registration Successful {uid}\n")    
@@ -178,25 +178,26 @@ def delete():
     print("==============================")
     print("*           Yes/No           *")
     print("==============================")
-    print("1. yes")
-    print("2. no")
-    delete_choice=input("Enter Your Choice (yes/no): ")
-    if delete_choice=="yes":
-        for delete_data in data_one:
-            if delete_data["uid"]==one_uid:
-                data_one.remove(delete_data)
-                with open("Students_.json","w") as one_file:
-                    json.dump(data_one,one_file,indent=4)
-                with open("System.log",'a') as d:
-                    d.write(f"[{str(datetime.datetime.now())}] [WARNNING] - Student Deleted {one_uid}")
-                print("Student Deleted Successful!")
+    while True:
+        print("1. yes")
+        print("2. no")
+        delete_choice=input("Enter Your Choice (yes/no): ")
+        if delete_choice=="yes":
+            for delete_data in data_one:
+                if delete_data["uid"]==one_uid:
+                    data_one.remove(delete_data)
+                    with open("Students_.json","w") as one_file:
+                        json.dump(data_one,one_file,indent=4)
+                    with open("System.log",'a') as d:
+                        d.write(f"[{str(datetime.datetime.now())}] [WARNNING] - Student Deleted {one_uid}")
+                    print("Student Deleted Successful!")
+            else:
+                print("UID Not Found")
+        elif delete_choice=="no":
+            print("Your Data is no Delete: ")
+            break
         else:
-            print("UID Not Found")
-    elif delete_choice=="no":
-        
-        print("Your Data is no Delete: ")
-    else:
-        print("Invalid Choice!")
+            print("Invalid Choice!")
 def menu():
     print("==============================")
     print("*            Menu            *")

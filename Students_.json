@@ -1,0 +1,42 @@
+[   
+    {
+        "uid": "001",
+        "name": "Danish Khan",
+        "age": "19",
+        "email": "danish@gmail.com",
+        "address": "Alapur, Joura",
+        "country": "India"
+    },
+    {
+        "uid": "002",
+        "name": "Ali Hasan",
+        "age": "21",
+        "email": "ali@gmail.com",
+        "address": "Alapur, Joura",
+        "country": "India"
+    },
+    {
+        "uid": "003",
+        "name": "Salib Khan",
+        "age": "17",
+        "email": "salib@gmail.com",
+        "address": "Alapur, Joura",
+        "country": "India"
+    },
+    {
+        "uid": "004",
+        "name": "Alishan",
+        "age": "18",
+        "email": "alishan@gmail.com",
+        "address": "Dholpur, Rajasthan",
+        "country": "India"
+    },
+    {
+        "uid": "005",
+        "name": "Rihan Khan",
+        "age": "17",
+        "email": "rihan@gmail.com",
+        "address": "Alapur, Joura",
+        "country": "India"
+    }
+]
