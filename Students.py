@@ -85,7 +85,7 @@ def register():
                 "country":country,
             }
             data_one.append(registeration)    
-            with open("Students_.json",'a') as student_registration:
+            with open("Students_.json",'w') as student_registration:
                 json.dump(data_one,student_registration,indent=4)
             with open("System.log",'a') as reg:
                 reg.write(f"[{str(datetime.datetime.now())}] [INFO] - Registration Successful {uid}\n")    
@@ -145,7 +145,7 @@ def update():
                                 break
                             else:
                                 print("Invalid Address")
-                            with open("System",'a') as add_one:
+                            with open("System.log",'a') as add_one:
                                 add_one.write(f"[{str(datetime.datetime.now())}] [INFO] - Student Address Updated {update_uid}")
                         except:
                             print("Invalid [Error]")

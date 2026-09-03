@@ -1,21 +1,25 @@
-[2026-08-27 15:57:24.690072] [ERROR] - Invalid Your Email!!! 001
-[2026-08-27 15:57:28.689979] [ERROR] - Invalid Your Email!!! 001
-[2026-08-27 15:58:02.042347] [ERROR] - Invalid Your Country!!! 001
-[2026-08-27 15:58:07.409360] [ERROR] - Invalid Your Country!!! 001
-[2026-08-27 15:58:12.459488] [INFO] - Registration Successful 001
-[2026-08-27 15:59:00.474951] [ERROR] - Invalid Your Age!!! 002
-[2026-08-27 15:59:35.483400] [ERROR] - Invalid Your Country!!! 002
-[2026-08-27 15:59:38.276787] [INFO] - Registration Successful 002
-[2026-08-27 16:00:32.711202] [ERROR] - Invalid Your Uid!!!
-[2026-08-27 16:01:31.528870] [ERROR] - Invalid Your Uid!!!
-[2026-08-27 16:02:04.401539] [ERROR] - Invalid Your Age!!! 003
-[2026-08-27 16:02:25.748107] [ERROR] - Invalid Your Email!!! 003
-[2026-08-27 16:02:40.270083] [INFO] - Registration Successful 003
-[2026-08-27 16:03:07.685314] [ERROR] - Invalid Your Uid!!!
-[2026-08-27 16:03:18.511070] [ERROR] - Invalid Your Age!!! 004
-[2026-08-27 16:03:25.444410] [ERROR] - Invalid Your Email!!! 004
-[2026-08-27 16:04:11.260431] [ERROR] - Invalid Your Country!!! 004
-[2026-08-27 16:04:14.390620] [INFO] - Registration Successful 004
-[2026-08-27 16:04:47.427926] [ERROR] - Invalid Your Age!!! 005
-[2026-08-27 16:04:51.853270] [ERROR] - Invalid Your Email!!! 005
-[2026-08-27 16:05:11.217059] [INFO] - Registration Successful 005
+[2026-09-03 18:19:50.183910] [ERROR] - Invalid Your Age!!! 1001
+[2026-09-03 18:19:51.430403] [ERROR] - Invalid Your Age!!! 1001
+[2026-09-03 18:19:52.500682] [ERROR] - Invalid Your Age!!! 1001
+[2026-09-03 18:19:55.867177] [ERROR] - Invalid Your Email!!! 1001
+[2026-09-03 18:20:14.770323] [INFO] - Registration Successful 1001
+[2026-09-03 18:20:27.962406] [ERROR] - Invalid Your Age!!! 1002
+[2026-09-03 18:20:29.018331] [ERROR] - Invalid Your Age!!! 1002
+[2026-09-03 18:20:34.587987] [ERROR] - Invalid Your Email!!! 1002
+[2026-09-03 18:20:40.084624] [ERROR] - Invalid Your Email!!! 1002
+[2026-09-03 18:20:41.017834] [ERROR] - Invalid Your Email!!! 1002
+[2026-09-03 18:20:41.851533] [ERROR] - Invalid Your Email!!! 1002
+[2026-09-03 18:21:12.312658] [INFO] - Registration Successful 1002
+[2026-09-03 18:21:22.844451] [ERROR] - Invalid Your Age!!! 1003
+[2026-09-03 18:21:28.921857] [ERROR] - Invalid Your Email!!! 1003
+[2026-09-03 18:22:19.238309] [ERROR] - Invalid Your Country!!! 1003
+[2026-09-03 18:22:21.592359] [INFO] - Registration Successful 1003
+[2026-09-03 18:22:47.566733] [ERROR] - Invalid Your Age!!! 1004
+[2026-09-03 18:22:55.266276] [ERROR] - Invalid Your Email!!! 1004
+[2026-09-03 18:23:17.336716] [ERROR] - Invalid Your Country!!! 1004
+[2026-09-03 18:23:19.611336] [INFO] - Registration Successful 1004
+[2026-09-03 18:23:34.112108] [ERROR] - Invalid Your Age!!! 1005
+[2026-09-03 18:23:43.616407] [ERROR] - Invalid Your Email!!! 1005
+[2026-09-03 18:23:59.912995] [ERROR] - Invalid Your Country!!! 1005
+[2026-09-03 18:24:01.979942] [INFO] - Registration Successful 1005
+[2026-09-03 18:24:27.898917] [WARNNING] - Student Deleted 1001

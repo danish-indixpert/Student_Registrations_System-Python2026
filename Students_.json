@@ -1,42 +1,34 @@
-[   
+[
     {
-        "uid": "001",
-        "name": "Danish Khan",
-        "age": "19",
-        "email": "danish@gmail.com",
-        "address": "Alapur, Joura",
-        "country": "India"
-    },
-    {
-        "uid": "002",
-        "name": "Ali Hasan",
-        "age": "21",
-        "email": "ali@gmail.com",
-        "address": "Alapur, Joura",
-        "country": "India"
-    },
-    {
-        "uid": "003",
-        "name": "Salib Khan",
-        "age": "17",
-        "email": "salib@gmail.com",
-        "address": "Alapur, Joura",
-        "country": "India"
-    },
-    {
-        "uid": "004",
-        "name": "Alishan",
-        "age": "18",
-        "email": "alishan@gmail.com",
+        "uid": "1002",
+        "name": "Shahid Alvi",
+        "age": "20",
+        "email": "shahid@gmail.com",
         "address": "Dholpur, Rajasthan",
         "country": "India"
     },
     {
-        "uid": "005",
-        "name": "Rihan Khan",
-        "age": "17",
-        "email": "rihan@gmail.com",
-        "address": "Alapur, Joura",
+        "uid": "1003",
+        "name": "Aman Ali",
+        "age": "22",
+        "email": "aman@gmail.com",
+        "address": "Agra, Uttar Pradesh",
+        "country": "India"
+    },
+    {
+        "uid": "1004",
+        "name": "Bhupendra",
+        "age": "21",
+        "email": "bhupendra@gmail.com",
+        "address": "Dholpur, Rajasthan",
+        "country": "India"
+    },
+    {
+        "uid": "1005",
+        "name": "Aryan",
+        "age": "23",
+        "email": "aryan@gmail.com",
+        "address": "Dholpur, Rajasthan",
         "country": "India"
     }
 ]
