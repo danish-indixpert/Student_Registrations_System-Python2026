@@ -84,6 +84,7 @@ def register():
                 "address":address,
                 "country":country,
             }
+            
             data_one.append(registeration)    
             with open("Students_.json",'w') as student_registration:
                 json.dump(data_one,student_registration,indent=4)
